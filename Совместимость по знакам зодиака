@@ -1,0 +1,100 @@
+#include "stdafx.h"
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "RUSSIAN");
+	int a, b;
+
+	cout << "Хочешь узнать своею совместимость со второй половинкой ?" << endl;
+	cout << "Вводи номер своего знака зодиака" << endl;
+	cout << "1 - Овен" << endl;
+	cout << "2 - Телец" << endl;
+	cout << "3 - Дева" << endl;
+	cout << "4 - Близнецы" << endl;
+
+	cin >> a;
+
+	cout << "Вводи номер знака зодиака своей второй половинки !" << endl;
+	cout << "1 - Овен" << endl;
+	cout << "2 - Телец" << endl;
+	cout << "3 - Дева" << endl;
+	cout << "4 - Близнецы" << endl;
+
+	cin >> b;
+
+	if ((a==1)&&(b==1))
+	{
+		cout << "1%" << endl;
+	}
+	else if ((a==1)&&(b==2))
+	{
+		cout << "3%" << endl;
+	}
+	else if ((a == 1) && (b == 3))
+	{
+		cout << "7%" << endl;
+	}
+	else if ((a == 1) && (b == 4))
+	{
+		cout << "15%" << endl;
+	}
+
+
+	else if ((a == 2) && (b == 2))
+	{
+		cout << "24%" << endl;
+	}
+	else if ((a == 2) && (b == 3))
+	{
+		cout << "21%" << endl;
+	}
+	else if ((a == 2) && (b == 4))
+	{
+		cout << "35%" << endl;
+	}
+	else if ((a == 2) && (b == 1))
+	{
+		cout << "2%" << endl;
+	}
+
+
+	else if ((a == 3) && (b == 1))
+	{
+		cout << "7%" << endl;
+	}
+	else if ((a == 3) && (b == 2))
+	{
+		cout << "37%" << endl;
+	}
+	else if ((a == 3) && (b == 3))
+	{
+		cout << "55%" << endl;
+	}
+	else if ((a == 3) && (b == 4))
+	{
+		cout << "59%" << endl;
+	}
+
+
+	else if ((a == 4) && (b == 1))
+	{
+		cout << "5%" << endl;
+	}
+	else if ((a == 4) && (b == 2))
+	{
+		cout << "40%" << endl;
+	}
+	else if ((a == 4) && (b == 3))
+	{
+		cout << "94%" << endl;
+	}
+	else if ((a == 4) && (b == 4))
+	{
+		cout << "89%" << endl;
+	}
+
+	system("pause"); 
+    return 0;
+}
