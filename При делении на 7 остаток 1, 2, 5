@@ -1,0 +1,22 @@
+#include "stdafx.h"
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "RUSSIAN");
+	int a, a1, b, i, m, k;
+	double p;
+
+	cout << "Числа от 0 до 87, которые в остатке дают 1, 2, 5:" << endl;
+
+	for (m = 0; m <= 87; m++)
+	{
+		if (((m % 7) == 1) || ((m % 7) == 2) || ((m % 7) == 5)) {
+			cout << m << endl;
+		}
+	}
+	
+	system("pause"); 
+    return 0;
+}
