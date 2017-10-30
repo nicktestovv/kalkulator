@@ -1,0 +1,150 @@
+#include "stdafx.h"
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "RUSSIAN");
+	int a, b;
+	cout << "Выберите одного из 10 котов. Потом сможете покормить его!" << endl;
+	cin >> a;
+
+	switch (a)
+	{
+	case 1:
+		cout << "Этот кот ест только сырую рыбу. Введите 1, чтобы покормить его." << endl;
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот сыт!" << endl;
+		}
+		else
+		{
+			cout << "Кота не сыт!" << endl;
+		}
+		break;
+
+	case 2:
+		cout << "Этот кот ест только мясо. Введите 1, чтобы покормить его." << endl;
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот сыт!" << endl;
+		}
+		else
+		{
+			cout << "Кота не сыт!" << endl;
+		}
+		break;
+
+	case 3:
+		cout << "Этот кот ест только творог. Введите 1, чтобы покормить его." << endl;
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот сыт!" << endl;
+		}
+		else
+		{
+			cout << "Кота не сыт!" << endl;
+		}
+		break;
+
+	case 4:
+		cout << "Этот кот ест только жаренную рыбу. Введите 1, чтобы покормить его." << endl;
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот сыт!" << endl;
+		}
+		else
+		{
+			cout << "Кота не сыт!" << endl;
+		}
+		break;
+
+	case 5:
+		cout << "Этот кот ест только молоко. Введите 1, чтобы покормить его." << endl;
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот сыт!" << endl;
+		}
+		else
+		{
+			cout << "Кота не сыт!" << endl;
+		}
+		break;
+
+	case 6:
+		cout << "Этот кот ест только конфеты. Введите 1, чтобы покормить его." << endl;
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот сыт!" << endl;
+		}
+		else
+		{
+			cout << "Кота не сыт!" << endl;
+		}
+		break;
+
+	case 7:
+		cout << "Этот кот ест только булки. Введите 1, чтобы покормить его." << endl;
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот сыт!" << endl;
+		}
+		else
+		{
+			cout << "Кота не сыт!" << endl;
+		}
+		break;
+
+	case 8:
+		cout << "Этот кот ест только морепродукты. Введите 1, чтобы покормить его." << endl;
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот сыт!" << endl;
+		}
+		else
+		{
+			cout << "Кота не сыт!" << endl;
+		}
+		break;
+
+	case 9:
+		cout << "Этот кот ест только курицу. Введите 1, чтобы покормить его." << endl;
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот сыт!" << endl;
+		}
+		else
+		{
+			cout << "Кота не сыт!" << endl;
+		}
+		break;
+
+	case 10:
+		cout << "Этот кот ест только пироженные. Введите 1, чтобы покормить его." << endl;
+		cin >> b;
+		if (b = 1)
+		{
+			cout << "Кот сыт!" << endl;
+		}
+		else
+		{
+			cout << "Кота не сыт!" << endl;
+		}
+		break;
+	default:
+		cout << "У нас только 10 котов:)" << endl;
+		break;
+	}
+
+	system("pause"); 
+    return 0;
+}
