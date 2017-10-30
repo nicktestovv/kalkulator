@@ -1,0 +1,35 @@
+#include "stdafx.h"
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, "RUSSIAN");
+	int a, b;
+	cout << "А сейчас нужно выбрать праздник!" << endl;
+	cout << "Есть Новый год, 23 февраля, 8 Марта." << endl;
+	cout << "Введите 1, 23 или 8 соответственно, чтобы выбрать праздник" << endl;
+	cin >> a;
+
+	switch (a)
+	{
+	case 1:
+		cout << "С Новым Годом! Успехов в Новом году!" << endl;
+		break;
+
+	case 23:
+		cout << "С праздником, защитники отечества!" << endl;
+		break;
+
+	case 8:
+		cout << "Самые тёплые слова и самые красивые цветы нашим девушкам!" << endl;
+		break;
+
+	default:
+		cout << "В эти дни праздников нет:(" << endl;
+		break;
+	}
+
+	system("pause"); 
+    return 0;
+}
